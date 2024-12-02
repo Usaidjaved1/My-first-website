@@ -1,0 +1,1565 @@
+*{
+    
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+    }
+    .headerParent{
+      background-color: #eee;
+      padding: 15px;
+      display: flex;
+      justify-content: space-between;
+      
+      
+  }
+  
+  .headerParent ul{
+      display: flex;
+      list-style: none;
+      gap: 15px;
+      font-size: 15px;
+      margin-left: 15px;
+  }
+  .headerParent ul li img{
+      width: 20px;
+  }
+  .headerParent button{
+      border: 1px solid black;
+      background-color: white;
+      padding: 5px 10px;
+   }
+   .headerParent button:hover{
+      background-color: black;
+      color: white;
+   }
+   .whatsapp{
+      filter: brightness(65%);
+   }
+        
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+     background-color:rgba(255, 255, 255,0.9) ;
+    height: 70px;
+    margin-right: 100px;
+    position: sticky;
+    top:0 ;
+    z-index: 1000;
+    
+    }
+
+
+    .lists ul{
+        display: flex;
+        justify-content: center;
+        gap:20px ;
+        list-style: none;
+        margin-left: 15px;
+        margin-right: 11px;
+        gap: 40px;
+        font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        position: relative;
+        right: 40px;
+        top: 5px;
+       ;
+
+        }
+
+
+        
+.lists ul a{
+    text-decoration: none;
+    font-size: 17px;
+    color: grey;
+}
+
+.home{
+    color:#2757cf ;
+}
+
+.Websites{
+    color:#2757cf ;
+
+}
+
+.logo{
+    margin-right: 40px;
+    position: relative;
+    top: 5px;
+}
+
+    
+    
+ 
+
+ .btn1{
+position: relative;
+right: 20px;
+padding: 15px 20px;
+background-color:rgba(29, 54, 194, 0.849);
+color: white;
+border: none;
+border-radius: 5px;
+margin-right: 10px;
+cursor: pointer;
+ }
+
+ .btn1:hover{
+    padding:20px 25px ;
+transition: 0.2s;
+font-size: 15px;
+ }
+
+
+ .btn2{
+    position: relative;
+    right: 20px;
+    padding: 15px 30px;
+    background-color:#55d124;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+     }
+
+     .btn2:hover{
+        padding:18px 35px ;
+    transition: 0.2s;
+    font-size: 15px;
+     }
+
+
+     hr{
+        margin-bottom: 10px;
+     }
+
+
+     .Maincontainer{
+        width: 100%;
+        height: 700px;
+        background-image: url(asset\ 47.png) ;
+        
+        
+     }
+
+
+     .containertext{
+        position: relative;
+        top: 150px;
+        left: 40px;
+        display: flex;
+        margin: 0px 10px 0px 10px;
+        font-size: 32px;
+        font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif ;
+        font-weight: 600;
+        color: rgba(0, 0, 0, .85);
+     }
+
+     span{
+        color: #55d124;
+     }
+
+     .img{
+    display: flex;
+    justify-content: center;
+    margin-left:700px ;
+    position: relative;
+    bottom: 90px;
+     }
+
+     .containertext2{
+        margin-left: 45px;
+        position: relative;
+        bottom: 330px;
+        font-family:"SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif ;
+        font-size: 27px;
+        font-weight: 600;
+        width: 100%;
+     }
+    
+     .color2{
+        color: #2757cf;
+     }
+     
+     .para1{
+        font-size: 18px;
+        font-weight: lighter;
+        color: rgb(100, 91, 91);
+     }
+
+
+     .parabtn{
+        padding: 18px 60px 18px 45px;       
+        font-size: 15px;
+        color: black;
+        
+     }
+
+     .arrow{
+        position: relative;
+        bottom: 2px;
+     }
+
+
+     .maincont{
+width: 80%;
+background-color:  rgba(182, 239, 73, .2);;
+        display: flex;
+        height: 150px;
+        justify-content: center;
+    gap:40px;
+        align-items: center;
+   margin :20px auto;
+    border-radius: 5px;
+    position: relative;
+    bottom: 70px;
+    border-radius: 10px;   
+     }
+
+     .buttons{
+        width: 100%;
+display: flex;
+flex-direction: row;
+align-items: center;
+     }
+
+     .butn1{
+   margin-right: 200px;
+   border: none;
+   background-color:white;
+   color: black;
+   font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   font-weight: bold;
+   border: 1px solid white;
+   font-size: 16px;
+   cursor: pointer;
+   padding:20px 45px ;
+   border-radius: 10px;
+      cursor: pointer;
+     }
+
+     .butn1:hover{
+       padding: 30px 55px;
+        background-color: black;
+        color: white;
+        transition: 0.3s;
+
+     }
+
+     .butn2{
+      
+      border: none;
+      background-color: white;
+      color: black;
+      font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: bold;
+      border: 1px solid white;
+      font-size: 16px;
+      cursor: pointer;
+      padding:20px 20px ;
+      border-radius: 10px;
+      position: relative;
+      right: 140px;
+      cursor: pointer;
+        }
+
+
+        .butn2:hover{
+         padding: 25px 35px;
+          background-color: black;
+          color: white;
+          transition: 0.3s;
+       }
+
+        
+     .butn3{
+      
+      border: none;
+      background-color: white;
+      color: black;
+      font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: bold;
+      border: 1px solid white;
+      font-size: 16px;
+      cursor: pointer;
+      padding:20px 15px ;
+      border-radius: 10px;
+      position: relative;
+      right: 110px;
+      cursor: pointer;
+         
+        }
+
+        
+        .butn3:hover{
+         padding: 30px 25px;
+          background-color: black;
+          color: white;
+          transition: 0.3s;
+
+        }
+
+        .butn4{
+         
+         border: none;
+         background-color: white;
+         color: black;
+         font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+         font-weight: bold;
+         border: 1px solid white;
+         font-size: 16px;
+         cursor: pointer;
+         padding:20px 20px ;
+         border-radius: 10px;
+         position: relative;
+         right: 80px;
+         cursor: pointer;
+           }
+
+
+           
+        .butn4:hover{
+         padding: 28px 30px;
+          background-color: black;
+          color: white;
+          transition: 0.3s;
+          
+        }
+
+           
+        .butn5{
+         
+         border: none;
+         background-color: #68da3c;
+         color: white;
+         font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+         font-weight: bold;
+         
+         font-size: 16px;
+         cursor: pointer;
+         padding:20px 20px ;
+         border-radius: 10px;
+         position: relative;
+         right: 40px; 
+         cursor: pointer;
+           }
+
+                
+        .butn5:hover{
+         padding: 25px 35px;
+          transition: 0.2s;
+          
+        }
+
+        .image{
+         display: flex;
+         justify-content: center;
+        }
+
+
+        .button1{
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 70px;
+        position: relative;
+          bottom: 70px;
+          
+        }
+
+        .betn{
+         border: none;
+         background-color: #55d124;
+         padding: 10px 40px;
+         font-size: 18px;
+         color: white;
+         font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif ;
+         border-radius: 5px;
+         cursor: pointer;
+        }
+
+        .betn:hover{
+         padding: 12px 50px;
+         transition: 0,3s;
+        }
+
+        .hero1text{
+         display: flex;
+         justify-content: center;
+         font-family:"SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif ;
+         font-size: 22px;
+        
+        }
+
+        .hero1main{
+         display: flex;
+   width: 93%;
+         margin-top:55px ;
+         /* height: 150px; */
+          /* background-color:  rgba(182, 239, 73, .2);  */
+         justify-content: center;
+         margin-left: 52px;
+         box-sizing: border-box;
+      position: relative;
+      bottom: 15px;
+      
+
+        }
+
+        .hero1img{
+display: flex;
+align-items: center;
+gap: 14px;
+justify-content: center;
+margin-left: 44px;
+position: relative;
+right: 3px;
+
+         
+        }
+
+        .img1{
+              background-color:  rgba(182, 239, 73, .2);
+              height: 150px;
+              width:195px ;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              position: relative;
+              border-radius: 10px;
+        }
+
+        .Welfare{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         position: relative;
+         right: 1188px;
+         top: 120px;
+         font-family:"SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif ;
+         font-size: 15px;
+         font-weight: bold;
+        }
+
+
+        .img1:hover{
+         width:200px ;
+         height:160px ;
+         transition: 0.3s;
+        }
+
+
+
+
+
+
+
+
+        .img2{
+         background-color:  rgba(182, 239, 73, .2);
+         height: 150px;
+         width:195px ;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         border-radius: 10px;
+   }
+
+.Medical{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   right: 965px;
+   top: 102px;
+   font-family:"SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif ;
+   font-size: 15px;
+   font-weight: bold;
+}
+
+.img2:hover{
+   width:200px ;
+   height:160px ;
+   transition: 0.3s;
+  }
+
+
+
+
+   .img3{
+      background-color:  rgba(182, 239, 73, .2);
+      height: 150px;
+      width:195px ;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 10px;
+}
+
+.onlinesadqah{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   right: 750px;
+   top: 82px;
+   font-family:"SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif ;
+   font-size: 14px;
+   font-weight: bold;
+
+}
+
+.img3:hover{
+   width:200px ;
+   height:160px ;
+   transition: 0.3s;
+  }
+
+
+
+
+
+.img4{
+   background-color:  rgba(182, 239, 73, .2);
+   height: 150px;
+   width:195px ;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 10px;
+
+}
+
+.cleanwater{
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   right: 535px;
+   top: 50px;
+   font-family:"SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif ;
+   font-size: 15px;
+   font-weight: bold;
+
+}
+
+.img4:hover{
+   width:200px ;
+   height:160px ;
+   transition: 0.3s;
+  }
+
+
+
+
+
+.img5{
+   background-color:  rgba(182, 239, 73, .2);
+   height: 150px;
+   width:195px ;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 10px;
+}
+
+.education{
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   right: 345px;
+   top: 28px;
+   font-family:"SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif ;
+   font-size: 15px;
+   font-weight: bold;
+}
+
+.img5:hover{
+   width:200px ;
+   height:160px ;
+   transition: 0.3s;
+  }
+
+
+
+
+
+
+
+.img6{
+   background-color:  rgba(182, 239, 73, .2);
+   height: 150px;
+   width:195px ;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 10px;
+}
+
+.food{
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   right: 130px;
+   top: 8px;
+   font-family:"SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif ;
+   font-size: 17px;
+   font-weight: bold;
+
+
+}
+
+
+
+.img6:hover{
+   width:200px ;
+   height:160px ;
+   transition: 0.3s;
+  }
+
+.imeg{
+   display: flex;
+   margin-top: 10px;
+   margin-left: 46px;
+   gap: 16px;
+   margin-right: 40px;
+   width:60%;
+   border-radius: 5px;
+   opacity: 0.9;
+   background-color: blur;
+   filter: brightness(50%) ;
+  
+}
+
+.imeg img{
+   border-radius: 6px;
+}
+
+
+
+.paragraph1{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: flex-start;
+margin-right: 870px;
+position: relative;
+bottom: 260px;
+color: white;
+/* gap: 150px; */
+font-size: 20px;
+font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-weight: bold;
+}
+
+
+.botn1{
+position: relative;
+top: 180px;
+background-color: #55d124;
+
+border: none;
+padding: 10px 150px;
+border-radius: 5px;
+font-size: 18px;
+color: white;
+font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-weight: bold;
+}
+
+
+
+
+.paragraph2{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+position: relative;
+bottom: 330px;
+color: white;
+font-size: 20px;
+font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-weight: bold;
+}
+
+
+     
+.botn2{
+   position: relative;
+   top: 185px;
+   background-color: #55d124;
+   
+   border: none;
+   padding: 10px 150px;
+   border-radius: 5px;
+   font-size: 18px;
+   color: white;
+   font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   font-weight: bold;
+   position: relative;
+   right: 20px;
+   
+}
+
+   .paragraph3{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: flex-end;
+     position: relative;
+     right: 175px;
+     bottom: 390px;
+     color: white;
+font-size: 20px;
+font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-weight: bold;
+   }
+
+
+   
+.botn3{
+  position: relative;
+  top: 180px;
+  left: 80px;
+  border: none;
+   padding: 10px 150px;
+   border-radius: 5px;
+   font-size: 18px;
+   color: white;
+   font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   font-weight: bold;
+   position: relative;
+   background-color:#55d124 ;
+   }
+
+
+html,body{
+   width: 100%;
+   height: 100%;
+   margin: 0;
+   padding: 0;
+   overflow-x: hidden;
+   
+
+}
+
+.hyperimg{
+   margin-left: 44px;
+width: 50%;
+
+}
+
+
+.hyperimg img{
+   border-top-left-radius: 60px;
+}
+
+.text{
+   margin-left: 44px;
+   background-color: #55d124;
+   width: 300px;
+   height: 200px;
+   padding: 60px;
+   font-size: 21px;
+   border-top-left-radius: 60px;
+   color: white;
+   position: relative;
+   bottom: 424px;
+   font-family:"SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif ;
+   border-bottom: 2px solid white;
+   align-items: center;
+   border-right: 2px solid white;
+}
+
+.heading{
+   font-size: 32px;
+   font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   display: flex;
+   justify-content: flex-end;
+   position: relative;
+   right: 400px;
+   bottom: 640px;
+}
+
+.mainhyp{
+   width: 200%;
+display: flex;
+position: relative;
+left: 720px;
+bottom: 630px;
+gap: 15px;
+
+}
+
+.imag{
+   position: relative;
+   
+right: 25px;
+padding: 15px;
+  background-color:  rgba(182, 239, 73, .2);
+  border-radius: 10px;
+}
+
+.had1{
+   color: #0d6db7 !important;
+   line-height: 30px !important;
+   
+}
+
+.pra1{
+   color: grey;
+}
+
+.mainhyp2{
+   display: flex;
+   position:relative ;
+   right:  500px;
+   top: 100px;
+   
+   width: 200%;
+}
+
+.imag2{
+   position: relative;
+   border-radius: 10px;
+   right: 36px;
+   padding: 15px;
+     background-color:  rgba(182, 239, 73, .2);
+   
+}
+
+.had2{
+   color: #0d6db7 !important;
+   line-height: 30px !important;
+   font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.pra2{
+   color: grey;
+}
+
+
+
+.mainhyp3   {
+   display: flex;
+   position:relative ;
+   right:  535px;
+   top: 100px;
+   
+   width: 200%;
+}
+
+.imag3{
+   position: relative;
+   border-radius: 10px;
+   right: 38px;
+   padding: 17px;
+     background-color:  rgba(182, 239, 73, .2);
+   
+}
+
+.had3{
+   color: #0d6db7 !important;
+   line-height: 30px !important;
+   font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.pra3{
+   color: grey;
+}
+
+
+.mainhyp4   {
+   display: flex;
+   position:relative ;
+   right:  510px;
+   top: 100px;
+   
+   width: 200%;
+}
+
+.imag4{
+   position: relative;
+   border-radius: 10px;
+   right: 31px;
+   padding: 7px;
+     background-color:  rgba(182, 239, 73, .2);
+   
+}
+
+.had4{
+   color: #0d6db7 !important;
+   line-height: 30px !important;
+   font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.pra4{
+   color: grey;
+}
+
+
+.backgrounds{
+background-color: #0d6db7;
+width: 92%;
+height: 450px;
+position: relative;
+bottom: 280px;
+left: 45px;
+background-image: url(./asset\ 67.png);
+opacity: 0.9;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover  ;
+}
+
+
+.maincontaner{
+   display: flex;
+   position: relative;
+   justify-content: space-around;
+   align-items: center;
+   top: 120px;
+   
+}
+
+.contaner1{
+   border: 5px solid white;
+   border-top-left-radius: 60px;
+   border-top-right-radius:60px ;
+   background-color: white ;
+   border-bottom-left-radius:60px;
+   border-bottom-right-radius: 60px;
+   padding: 25px;
+}
+
+
+.contaner2{
+   border: 5px solid white;
+   border-top-left-radius: 60px;
+   border-top-right-radius:60px ;
+   background-color: white ;
+   border-bottom-left-radius:60px;
+   border-bottom-right-radius: 60px;
+   padding: 25px;
+}
+
+
+.contaner3{
+   border: 5px solid white;
+   border-top-left-radius: 60px;
+   border-top-right-radius:60px ;
+   background-color: white ;
+   border-bottom-left-radius:60px;
+   border-bottom-right-radius: 60px;
+   padding: 25px;
+}
+
+
+.contaner4{
+   border: 5px solid white;
+   border-top-left-radius: 60px;
+   border-top-right-radius:60px ;
+   background-color: white ;
+   border-bottom-left-radius:60px;
+   border-bottom-right-radius: 60px;
+   padding: 25px;
+}
+
+
+.maincontanertext{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   position: relative;
+   top: 150px;
+   color: white;
+   font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   font-size: 20px;
+}
+
+.mainheadi{
+display: flex;
+justify-content: center;
+
+
+}
+
+
+.Pera{
+position: relative;
+left: 56px;
+font-family:"SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+color:#58a33a ;
+position: relative;
+font-weight: 600;
+font-size: 18px;
+}
+
+
+.Headi{
+font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size:32px ;
+color: rgba(0, 0, 0, .85);
+}
+
+
+.mainConta{
+   background-color:  rgba(182, 239, 73, .2);
+width: 92%;
+height: 430px;
+position: relative;
+bottom: 90px;
+left: 45px;
+}
+
+
+.Imaj{
+       position: relative;
+      display: flex;
+      justify-content: center;
+left: 5px;
+top: 50px;
+ border-image:10px ;
+}
+
+.Imaj img{
+   border-radius: 50px;
+}
+
+.cont{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   position: relative;
+   top: 60px;
+}
+
+.Had{
+   color: #0d6db7;
+   font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.cont p{
+   line-height: 30px;
+   color: grey;
+}
+
+.betns{
+   position: relative;
+   top: 20px;
+   border: none;
+   right: 10px;
+   
+}
+
+.betns1{
+   background-color: white;
+   border: none;
+   padding: 10px;
+   border-radius: 10px;
+}
+
+.betns2{
+   background-color:#8dc63f;
+   border: none;
+   padding: 10px;
+   border-radius: 10px;
+   position: relative;
+   left: 5px;
+   color: white;
+}
+
+.img svg{
+   color: white;
+}
+
+
+.main{
+   position: relative;
+   bottom: 200px;
+}
+
+.had{
+   display: flex;
+   justify-content: center;
+   font-size: 35px;
+   font-family:"SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif ;
+   color: rgba(0, 0, 0, .85);
+}
+
+.images{
+   top: 50px;
+   width: 92%;
+   display: flex;
+    gap: 20px;
+    justify-content: center;
+   position: relative;
+   left: 45px;
+   background-color: blur;
+   filter: brightness(80%) ;
+}
+
+.images img{
+   border-radius: 8px;
+}
+
+.heromain{
+   position: relative;
+   bottom:200px ;
+}
+
+.ip1 p{
+   font-size: 17px;
+   position: relative;
+   left: 10px;
+   color: rgba(0, 0, 0, .85);
+   font-family:"SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif ;
+   text-align: 10px;
+height: 80px;
+font-weight: bold;
+}
+.ip1{
+   background-color:  rgba(182, 239, 73, .2);
+   border-radius: 6px;
+}
+
+
+.ip2 p{
+   font-size: 17px;
+   position: relative;
+   left: 10px;
+   color: rgba(0, 0, 0, .85);
+   font-family:"SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif ;
+   text-align: 10px;
+   height: 80px;
+   font-weight: bold;
+}
+.ip2{
+   background-color:  rgba(182, 239, 73, .2);
+   border-radius: 6px;
+}
+.ip3 p{
+   font-size: 17px;
+   position: relative;
+   left: 10px;
+   color: rgba(0, 0, 0, .85);
+   font-family:"SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif ;
+   text-align: 10px;
+   height: 80px;
+   font-weight: bold;
+}
+.ip3{
+   background-color:  rgba(182, 239, 73, .2);
+   border-radius: 6px;
+}
+.ip4 p{
+   font-size: 17px;
+   position: relative;
+   left: 10px;
+   color: rgba(0, 0, 0, .85);
+   font-family:"SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif ;
+   text-align: 10px;
+   height: 80px;
+   font-weight: bold;
+}
+.ip4{
+   background-color:  rgba(182, 239, 73, .2);
+   border-radius: 6px;
+}
+
+
+
+.images2{
+   top: 50px;
+   width: 92%;
+   display: flex;
+    gap: 20px;
+    justify-content: center;
+   position: relative;
+   left: 45px;
+   background-color: blur;
+   filter: brightness(80%) ;
+}
+
+.images2 img{
+   border-radius: 8px;
+}
+
+.ip5 p{
+   font-size: 17px;
+   position: relative;
+   left: 10px;
+   color: rgba(0, 0, 0, .85);
+   font-family:"SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif ;
+   text-align: 10px;
+   height: 80px;
+   font-weight: bold;
+}
+.ip5{
+   background-color:  rgba(182, 239, 73, .2);
+   border-radius: 6px;
+}
+
+
+
+.ip6 p{
+   font-size: 17px;
+   position: relative;
+   left: 10px;
+   color: rgba(0, 0, 0, .85);
+   font-family:"SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif ;
+   text-align: 10px;
+   height: 80px;
+   font-weight: bold;
+}
+
+.ip6{
+   background-color:  rgba(182, 239, 73, .2);
+   border-radius: 6px;
+}
+
+.ip7 p{
+   font-size: 17px;
+   position: relative;
+   left: 10px;
+   color: rgba(0, 0, 0, .85);
+   font-family:"SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif ;
+   text-align: 10px;
+   height: 80px;
+   font-weight: bold;
+}
+
+.ip7{
+   background-color:  rgba(182, 239, 73, .2);
+   border-radius: 6px;
+}
+
+.ip8 p{
+   font-size: 17px;
+   position: relative;
+   left: 10px;
+   color: rgba(0, 0, 0, .85);
+   font-family:"SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif ;
+   text-align: 10px;
+   height: 80px;
+   font-weight: bold;
+}
+
+.ip8{
+   background-color:  rgba(182, 239, 73, .2);
+   border-radius: 6px;
+}
+
+.had5{
+   display: flex;
+   justify-content: center;
+   font-size: 35px;
+   font-family:"SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif ;
+   color: rgba(0, 0, 0, .85);
+   position: relative;
+   right: 10px;
+}
+
+
+
+
+.heromain2{
+   position: relative;
+   bottom:120px
+}
+
+
+.images3{
+   top: 50px;
+   width: 92%;
+   display: flex;
+    gap: 20px;
+    justify-content: center;
+   position: relative;
+   left: 45px;
+   
+}
+
+.images3 img{
+   border-radius: 10px;
+}
+
+.ip9 p{
+   font-size: 17px;
+   position: relative;
+   left: 10px;
+   color: rgba(0, 0, 0, .85);
+   font-family:"SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif ;
+   text-align: 10px;
+top: 10px;
+ height: 80px;
+ font-weight: bold;
+}
+
+.ip9{
+   background-color:  rgba(182, 239, 73, .2);
+   border-radius: 8px;
+}
+
+.ip10 p{
+   font-size: 17px;
+   position: relative;
+   left: 10px;
+   color: rgba(0, 0, 0, .85);
+   font-family:"SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif ;
+   text-align: 10px;
+   top: 10px;
+   height: 80px;
+   font-weight: bold;
+}
+
+.ip10{
+   background-color:  rgba(182, 239, 73, .2);
+   border-radius: 8px;
+   
+}
+.ip11 p{
+   font-size: 17px;
+   position: relative;
+   left: 10px;
+   color: rgba(0, 0, 0, .85);
+   font-family:"SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif ;
+   text-align: 10px;
+   top: 10px;
+   height: 80px;
+   font-weight: bold;
+}
+
+.ip11{
+   background-color:  rgba(182, 239, 73, .2);
+   border-radius: 8px;
+   
+}
+.ip12 p{
+   font-size: 17px;
+   position: relative;
+   left: 10px;
+   color: rgba(0, 0, 0, .85);
+   font-family:"SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif ;
+   text-align: 10px;
+   top: 10px;
+   height: 80px;  
+   font-weight: bold;
+}
+
+.ip12{
+   background-color:  rgba(182, 239, 73, .2);
+   border-radius: 8px;
+}
+.batan1{
+   border: none;
+   background-color: #8dc63f;
+   padding:5px 8px 5px 8px;
+   font-size: 11px;
+   border-radius: 5px;
+   color: white;
+}
+
+
+.battan2{
+  
+   background-color: white;
+   padding:10px 17px 10px 17px;
+   margin-left: 10px;
+   border: none;
+   margin-bottom: 10px;
+   border-radius: 6px;
+}
+
+
+.background2{
+   background-color: #0d6db7;
+   width: 92%;
+   height: 260px;
+   position: relative;
+   bottom: 30px;
+   left: 45px;
+   background-image: url(./assests/asset\ 49.png);
+  background-position:center ;
+  background-repeat: no-repeat;
+  background-size: cover;
+   }
+
+   .hading{
+      color: white;
+      font-family:"SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif  ;
+      display: flex;
+      justify-content: center;
+      position: relative;
+      top: 40px;
+      font-size: 30px;
+   }
+
+
+   input{
+      display: flex;
+      justify-content: center;
+      position: relative;
+      top: 60px;
+   width: 40%;
+   left: 370px;
+   background-color: transparent;
+   border: 1px solid white;
+   border: none;
+   border: 1px solid white;
+   padding: 15px;
+   border-radius: 5px;
+   font-size: 17px;
+   text-decoration-color: white;
+   }
+
+input::placeholder{
+   color: rgb(167, 158, 158);
+   font-size: 16px;
+}
+
+   input:focus{
+   outline: 1px solid white;
+    color: white;
+    border: none;
+   }
+   
+   .sub{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;   
+      align-items: center;
+      width: 40%;
+      position: relative;
+      left: 370px;
+      top: 65px;
+      border: none;
+      padding: 15px;
+      border-radius: 5px;
+      font-family:"SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif ;
+      font-weight: bold;
+   }
+
+
+  .background3{
+   background-color: #424242;
+    padding: 50px;
+    position: relative;
+    width: 100%;
+    height: 540px;
+    background-image:url(./asset\ 67.png) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 110%;
+    
+  }
+   
+
+  .last{
+   display: flex;
+   justify-content: center;
+   gap: 80px;
+   position: relative;
+bottom: 130px;
+line-height:37px ;   
+color: white;
+font-family:"SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 15px;
+left: 100px;
+  }
+
+  .seperate p{
+   position: relative;
+   bottom: 30px;
+   line-height: 20px;
+   font-size: 13px;
+  }
+
+  .whatsapp2{
+   border: 1 px rgb(15, 187, 15);
+   background-color: #55d124;
+   padding: 5px;
+   border-radius: 5px;
+   position: relative;
+   left: 5px;
+  }
+
+  .logoes{
+   display: flex;
+   position: relative;
+   margin-left: 10px;
+   left: 20px;
+   gap: 6px;
+   top: 28px;
+  }
+  .x{
+  
+   border: 1px solid black;
+   padding: 5px;
+   border-radius: 5px;
+
+  }
+
+  .f{
+   border-radius: 5px;
+  }
+  .y{
+   border-radius: 5px;
+  }
+  
+  hr{
+   opacity: .5;
+  }
+
+  .hr1{
+   opacity: .3;
+   position: relative;
+   bottom: 140px;
+  }
+
+  .lastimg{
+   display: flex;
+   justify-content: center;
+   position: relative;
+   bottom: 110px;
+   right: 20px;
+  }
+
+  .hr2{
+   position: relative;
+   bottom: 60px;
+   opacity: .1;
+  }
+
+  .lastp{
+   color: white;
+   display: flex;
+   justify-content: center;
+   position: relative;
+   right: 20px;
+   bottom: 110px;
+  }
+
+  .lastp2{
+   color: white;
+   display: flex;
+   justify-content: center;
+   position: relative;
+   right: 20px;
+   bottom: 90px;
+  }
+  
+  .hr3{
+   position: relative;
+   bottom: 50px;
+   opacity: .1;
+  }
